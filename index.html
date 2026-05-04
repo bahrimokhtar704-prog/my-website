@@ -2,35 +2,117 @@
 <html lang="ar">
 <head>
 <meta charset="UTF-8">
-<title>موقعي الجديد</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>موقع Mokhtar</title>
+
 <style>
 body{
   margin:0;
   font-family:Arial;
-  background:linear-gradient(120deg,#0f172a,#1e293b);
+  background: radial-gradient(circle at top, #0f172a, #020617);
   color:white;
-  text-align:center;
 }
-.container{padding:80px;}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 40px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+}
+
+nav h2{
+  margin:0;
+  color:#38bdf8;
+}
+
+.hero{
+  text-align:center;
+  padding:100px 20px;
+}
+
+.hero h1{
+  font-size:50px;
+}
+
+.hero p{
+  color:#cbd5e1;
+}
+
+.btn{
+  padding:12px 25px;
+  background:#38bdf8;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.btn:hover{
+  background:#0ea5e9;
+}
+
+.container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  padding:40px;
+}
+
 .card{
   background:rgba(255,255,255,0.05);
   padding:20px;
-  margin:20px auto;
-  max-width:500px;
   border-radius:15px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.05);
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  color:#64748b;
 }
 </style>
 </head>
+
 <body>
 
+<nav>
+  <h2>🚀 Mokhtar</h2>
+  <div>Home | About | Contact</div>
+</nav>
+
+<div class="hero">
+  <h1>مرحبا بك 👋</h1>
+  <p>هذا موقعي المطوّر الجديد 💻</p>
+  <button class="btn" onclick="alert('مرحبا بيك!')">ابدأ</button>
+</div>
+
 <div class="container">
-<h1>🚀 مرحبا بيك</h1>
 
-<div class="card">
-<p>هذا موقع مطور جديد 💻</p>
+  <div class="card">
+    <h3>👤 من أنا</h3>
+    <p>مطور مبتدئ أتعلم البرمجة وبناء المواقع</p>
+  </div>
+
+  <div class="card">
+    <h3>⚡ مهاراتي</h3>
+    <p>HTML - CSS - JavaScript (قريباً)</p>
+  </div>
+
+  <div class="card">
+    <h3>🚀 أهدافي</h3>
+    <p>إنشاء مشاريع قوية واحترافية</p>
+  </div>
+
 </div>
 
-</div>
+<footer>
+© 2026 - Mokhtar Website
+</footer>
 
 </body>
 </html>
