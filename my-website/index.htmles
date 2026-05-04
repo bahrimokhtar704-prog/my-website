@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>موقعي الشخصي</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #0f172a, #1e293b);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #cbd5e1;
+    }
+
+    .card {
+      background: #111827;
+      margin: 20px auto;
+      padding: 20px;
+      width: 80%;
+      max-width: 500px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      background: #3b82f6;
+      color: white;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #2563eb;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>👋 مرحبا بيك</h1>
+  <p>هذا موقعي الشخصي المطوّر 🚀</p>
+</header>
+
+<div class="card">
+  <h2>عنّي</h2>
+  <p>أنا مطوّر مبتدئ أتعلم البرمجة وبناء المواقع 💻</p>
+</div>
+
+<div class="card">
+  <h2>مشاريعي</h2>
+  <p>حالياً أشتغل على تطوير مهاراتي في الويب</p>
+  <button onclick="alert('قريباً مشاريع جديدة!')">اضغط هنا</button>
+</div>
+
+<footer>
+  © 2026 - موقعي الشخصي
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+</head>
+<body>
+  <h1>مرحبا بيك في موقعي</h1>
+  <p>هذا أول مشروع لي على GitHub 🚀</p>
+</body>
+</html>
